@@ -21,7 +21,7 @@ def extract_attributes_from_pdf(file_path):
         text = first_page.extract_text()
 
         attribute_pairs = [
-            ("Property",),
+            ("Property","Property Address"),
             ("Borrower(s)", "Borrower"),
             ("Seller(s)", "Seller"),
             ("Loan Amount",),
