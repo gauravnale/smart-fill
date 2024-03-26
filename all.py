@@ -91,7 +91,7 @@ def main():
     with st.sidebar.container():
         with st.expander("What problem it solves:"):
             st.write('''
-                    Client Experience: Busy or unmotivated clients  expect automated pre-filled information sourced from AI or backend operations.
+                    # Client Experience: Busy or unmotivated clients  expect automated pre-filled information sourced from AI or backend operations.
                     Efficiency:
                     Cut down on manual data entry and reduce processing time.
                     ''')
