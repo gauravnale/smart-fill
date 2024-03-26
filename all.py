@@ -76,12 +76,12 @@ def main():
     
      # Section 1: Information about Smart Fill
     with st.sidebar.container():
-        with st.expander("Smart Fill: Automatic Data Prepopulation"):
+        with st.expander("Smart Fill: Automatic Data Prepopulation", expanded=True):
             st.write("This intelligent feature automatically populates relevant data fields based on the document you upload. Say goodbye to manual data entry and let Smart Fill do the heavy lifting for you.")
         
     # Section 2: Usage Instructions
     with st.sidebar.container():
-        with st.expander("How It Works"):
+        with st.expander("How It Works", expanded=True):
             st.write("1. Upload Your Document: Simply upload your document using the provided file upload button.\n"
                         "2. Smart Analysis: Our system analyzes the document to identify key data points such as names, addresses, dates, and more. Further we can configure it with reference to domain.\n"
                         "3. Automatic Prepopulation: Once the analysis is complete, Smart Fill intelligently fills in the corresponding fields in your form, saving you time and effort.\n"
@@ -89,7 +89,7 @@ def main():
         
     # Section 3: Additional Notes
     with st.sidebar.container():
-        with st.expander("What problem it solves:"):
+        with st.expander("What problem it solves:, expanded=True"):
             st.write("Client Experience: Busy or unmotivated clients  expect automated pre-filled information sourced from AI or backend operations.\n"
                     "Efficiency: \n" 
                     "Cut down on manual data entry and reduce processing time."
