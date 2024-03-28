@@ -100,7 +100,7 @@ def main():
     # Section 4: Configuration
     with st.sidebar.container():
         with st.expander("Configuration:"):
-            st.write("You can retrieve details regarding the following attributes:": \n" 
+            st.write("You can retrieve details regarding the following attributes: \n" 
                     "- Property \n"
                     "- Borrower(s) \n"
                     "- Seller(s) \n"
