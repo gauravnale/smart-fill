@@ -105,7 +105,7 @@ def main():
                     "Loan Amount \n"
                     "Loan Term \n"
                     "Lender \n"
-                    "Cash to Close \n")
+                    "Cash to Close")
         
         
     # File upload
