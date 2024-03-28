@@ -98,14 +98,14 @@ def main():
     # Section 4: Configuration
     with st.sidebar.container():
         with st.expander("Configuration:"):
-            st.write("You can extract information about the following attributes \n" 
-                    "Property \n"
-                    "Borrower(s) \n"
-                    "Seller(s) \n"
-                    "Loan Amount \n"
-                    "Loan Term \n"
-                    "Lender \n"
-                    "Cash to Close")
+            st.write("You can extract information about the following attributes: \n" 
+                    "- Property \n"
+                    "- Borrower(s) \n"
+                    "- Seller(s) \n"
+                    "- Loan Amount \n"
+                    "- Loan Term \n"
+                    "- Lender \n"
+                    "- Cash to Close")
         
         
     # File upload
