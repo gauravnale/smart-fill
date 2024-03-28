@@ -72,7 +72,9 @@ st.markdown(
 def main():
     st.title("Smart Fill - Famiology.io")
 
-
+    with st.sidebar.container():
+        st.write("About App")
+        
     
      # Section 1: Information about Smart Fill
     with st.sidebar.container():
