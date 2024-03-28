@@ -110,7 +110,11 @@ def main():
                     "Cut down on manual data entry and reduce processing time."
                     )
             
-    
+    # Section 5: Value
+    with st.sidebar.container():
+        with st.expander("Value:"):
+            st.write("The inherent value proposition of Smart Fill for users resides in its capacity to expedite and optimize data entry workflows through the automated population of pertinent fields, leveraging document uploads as the primary data source."
+                    )
         
         
     # File upload
