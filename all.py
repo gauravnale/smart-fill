@@ -94,6 +94,18 @@ def main():
                     "Efficiency: \n" 
                     "Cut down on manual data entry and reduce processing time."
                     )
+            
+    # Section 4: Configuration
+    with st.sidebar.container():
+        with st.expander("Configuration:"):
+            st.write("You can extract information about the following attributes \n" 
+                    "Property \n"
+                    "Borrower(s) \n"
+                    "Seller(s) \n"
+                    "Loan Amount \n"
+                    "Loan Term \n"
+                    "Lender \n"
+                    "Cash to Close \n")
         
         
     # File upload
