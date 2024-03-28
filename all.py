@@ -88,16 +88,8 @@ def main():
                         "2. Smart Analysis: Our system analyzes the document to identify key data points such as names, addresses, dates, and more. Further we can configure it with reference to domain.\n"
                         "3. Automatic Prepopulation: Once the analysis is complete, Smart Fill intelligently fills in the corresponding fields in your form, saving you time and effort.\n"
                         "4. Review and Edit: You always have the final say. Review the pre populated data, make any necessary edits, and proceed with confidence")
-        
-    # Section 3: Additional Notes
-    with st.sidebar.container():
-        with st.expander("What problem it solves:"):
-            st.write("Client Experience: Busy or unmotivated clients  expect automated pre-filled information sourced from AI or backend operations.\n"
-                    "Efficiency: \n" 
-                    "Cut down on manual data entry and reduce processing time."
-                    )
-            
-    # Section 4: Configuration
+
+    # Section 3: Configuration
     with st.sidebar.container():
         with st.expander("Configuration:"):
             st.write("You can retrieve details regarding the following attributes: \n" 
@@ -108,6 +100,17 @@ def main():
                     "- Loan Term \n"
                     "- Lender \n"
                     "- Cash to Close")
+    
+        
+    # Section 4: Additional Notes
+    with st.sidebar.container():
+        with st.expander("What problem it solves:"):
+            st.write("Client Experience: Busy or unmotivated clients  expect automated pre-filled information sourced from AI or backend operations.\n"
+                    "Efficiency: \n" 
+                    "Cut down on manual data entry and reduce processing time."
+                    )
+            
+    
         
         
     # File upload
