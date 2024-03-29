@@ -73,7 +73,7 @@ def main():
     st.title("Smart Fill - Famiology.io")
 
     with st.sidebar.container():
-        st.write("About App")
+        st.header("About App")
         
     
      # Section 1: Information about Smart Fill
