@@ -87,7 +87,7 @@ def main():
             st.write("1. Upload Your Document: Simply upload your document using the provided file upload button.\n"
                         "2. Smart Analysis: Our system analyzes the document to identify key data points such as names, addresses, dates, and more. Further we can configure it with reference to domain.\n"
                         "3. Automatic Prepopulation: Once the analysis is complete, Smart Fill intelligently fills in the corresponding fields in your form, saving you time and effort.\n"
-                        "4. Review and Edit: You always have the final say. Review the pre populated data, make any necessary edits, and proceed with confidence")
+                        "4. Review and Edit: You always have the final say. Review the pre populated data, make any necessary edits, and proceed with confidence.")
 
     # Section 3: Configuration
     with st.sidebar.container():
